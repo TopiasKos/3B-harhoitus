@@ -1,0 +1,20 @@
+body {
+	background: black;
+	color: white;
+	}
+	
+H1	{
+	font-size: 20px;
+	}
+	
+p	{
+	font-size: 12px;
+	color: green;
+	}
+	
+.divelementti {
+	border-style: dotted;
+	border-width: 2px;
+	height: 100px;
+	width: 100px;
+}
