@@ -1,5 +1,8 @@
 body {
-	background: black;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Lake-Halkj%C3%A4rvi-Somero-Finland.jpg/640px-Lake-Halkj%C3%A4rvi-Somero-Finland.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-color: lightgrey;
 	color: white;
 	}
 	
@@ -13,8 +16,33 @@ p	{
 	}
 	
 .divelementti {
+	margin-left: 100px;
 	border-style: dotted;
 	border-width: 2px;
 	height: 100px;
 	width: 100px;
 }
+
+.divi {
+	margin-left: 250px;
+	border: 6px black solid;
+	width: 220px;
+	color: red;
+	background-color: goldenrod;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+	figure {
+		border: 2px yellow solid;
+		padding: 2px;
+		width: 200px;
+		
+	}
+	
+	  figcaption {
+		background-color: green;
+		color: red;
+		padding: 3px;
+		text-align: center;
+	  }
