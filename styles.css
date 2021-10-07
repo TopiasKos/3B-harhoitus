@@ -4,6 +4,10 @@ body {
 	background-size: auto;
 	background-color: lightgrey;
 	color: white;
+	
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 H1	{
@@ -11,8 +15,8 @@ H1	{
 	}
 	
 p	{
-	font-size: 12px;
-	color: green;
+	font-size: 16px;
+	color: black;
 	}
 	
 .divelementti {
@@ -20,7 +24,7 @@ p	{
 	border-style: dotted;
 	border-width: 2px;
 	height: 100px;
-	width: 100px;
+	width: 200px;
 }
 
 .divi {
@@ -46,3 +50,19 @@ p	{
 		padding: 3px;
 		text-align: center;
 	  }
+
+	.header {
+		background-color:hotpink;
+
+	}
+
+	.nav {
+		background-color:greenyellow;
+		
+	}
+
+	.section {
+		background-color:blueviolet;
+		
+	}
+
