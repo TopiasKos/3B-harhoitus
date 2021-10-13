@@ -1,17 +1,18 @@
 body {
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Lake-Halkj%C3%A4rvi-Somero-Finland.jpg/640px-Lake-Halkj%C3%A4rvi-Somero-Finland.jpg");
+	/*background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Lake-Halkj%C3%A4rvi-Somero-Finland.jpg/640px-Lake-Halkj%C3%A4rvi-Somero-Finland.jpg");*/
 	background-repeat: no-repeat;
 	background-size: auto;
-	background-color: lightgrey;
+	background-color: grey;
 	color: white;
 	
 		width: 80%;
-		margin-left: auto;
+		margin-left: 20px;
 		margin-right: auto;
 	}
 	
 H1	{
-	font-size: 20px;
+	font-size: 40px;
+	margin-left: 15px;
 	}
 	
 p	{
@@ -20,21 +21,24 @@ p	{
 	}
 	
 .divelementti {
-	margin-left: 100px;
-	border-style: dotted;
+
+	border-style: none;
 	border-width: 2px;
 	height: 100px;
 	width: 200px;
 }
 
+
+
 .divi {
-	margin-left: 250px;
+	margin-left: 20px;
+	margin-top: 100px;
 	border: 6px black solid;
 	width: 220px;
 	color: red;
 	background-color: goldenrod;
 	border-radius: 20px;
-	padding: 5px;
+	
 }
 
 	figure {
@@ -56,13 +60,61 @@ p	{
 
 	}
 
+*{box-sizing: border-box;}
+
 	.nav {
-		background-color:greenyellow;
-		
+		font-family: "copperplate", fantasy;
+		float: left;
+		width: 30%;
+		background-color: cadetblue;
+		list-style-type: none;
+		padding: 10px;
 	}
 
 	.section {
-		background-color:blueviolet;
-		
+		font-family: "Papyrus", fantasy;
+		color:black;
+		font-size: 17px;
+		float: right;
+		width: 60%;
+		background-color:violet;
+		padding: 20px;
 	}
 
+	img {
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 10px;
+	}
+
+	.footer {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: red;
+		color: white;
+		text-align: center;
+	}
+
+	.div {
+		margin-left: 30px;
+		width: 900px;
+		color: goldenrod;
+		background-color:  #dddddd;
+	}
+
+	ul {
+		list-style-type: none;
+		
+	  }
+
+	  li a {
+		display: block;
+		width: 150px;
+		background-color: cadetblue;
+	  }
+
+	  a:hover {
+		color: red;
+	  }
