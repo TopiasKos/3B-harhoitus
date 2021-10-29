@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta lang="fi">
+    <link rel="stylesheet" href="styletable.css">
+</head>
+
+<body>
+
+    <H1>Täytä lomake!</H1>
+
+    <table>
+
+
+        <form action="https://www.w3schools.com//action_page.php" method="get">
+
+
+            <tr>
+                <td><label for="etunimi">Etunimi:</label></td>
+                <td><input type="text" id="etunimi" name="etunimi"></td>
+            </tr>
+
+            <tr>
+                <td><label for="sukunimi">Sukunimi:</label></td>
+                <td><input type="text" id="sukunimi" name="sukunimi"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Sähköposti:</label></td>
+                <td><input type="text" id="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="sukupuoli">Sukupuoli:</label></td>
+                <td><input type="radio" id="mies" name="sukupuoli" value="mies">
+                    <label for="mies">Mies</label> <br>
+
+                    <input type="radio" id="nainen" name="sukupuoli" value="nainen">
+                    <label for="nainen">Nainen</label>
+                </td>
+            </tr>
+
+            <tr>
+            <td><label for="cars">Veriryhmä:</label></td>
+            <td><select id="Veriryhmä" name="Veriryhmä">
+                <option value="-">-</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="O">O</option>
+                <option value="AB">AB</option>
+            </select></td>
+
+
+            <tr>
+                <td> <label for="syntymäaika">Syntym&aumlaika:</label></td>
+                <td><input type="datetime-local" id="syntymäaika" name="syntymäaika"></td>
+            </tr>
+
+            <tr>
+                
+                <td><label for="ajoneuvo1"> Omistan pyörän:</label><br></td>
+                <td> <input type="checkbox" id="ajoneuvo1" name="ajoneuvo1" value="Pyörä"></td>
+            </tr>
+            <tr>
+                <td><label for="ajoneuvo2"> Omistan auton:</label><br></td>
+                <td><input type="checkbox" id="ajoneuvo2" name="ajoneuvo2" value="Auto"></td>
+                
+            </tr>
+            <tr>
+                <td> <label for="ajoneuvo3"> Omistan mopon:</label></td>
+                <td><input type="checkbox" id="ajoneuvo3" name="ajoneuvo3" value="Mopo"></td>
+                
+            </tr>
+
+
+
+            <tr>
+                <td><input type="submit" value="Lähetä"></td>
+            </tr>
+
+
+        </form>
+
+    </table>
+
+
+</body>
+
+</html>
