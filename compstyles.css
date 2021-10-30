@@ -1,0 +1,17 @@
+body {
+    background-color: tomato;
+}
+
+.header {
+    margin-left: 35%;
+    margin-top: 40px;
+}
+
+    button {
+    border: solid black;
+    color: darkred;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    margin: 2px 2px;
+}
