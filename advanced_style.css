@@ -1,0 +1,55 @@
+style {
+    background-color: white;
+    color: black;
+}
+
+#id1 {
+    width: 50%;
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: 10px 10px black;
+}
+
+H1 {
+    color: black;
+    text-shadow: 2px 2px darkred;
+}
+
+#id2 {
+    background-size: cover;
+    width: 50%;
+    height: auto;
+    border: 4px solid black;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/The_laughing_monkey.jpg/640px-The_laughing_monkey.jpg);
+}
+
+a.one:link {
+    text-decoration:none;
+}
+
+a.two:link {
+    text-decoration:none;
+}
+
+a.one:hover {
+    color: darkturquoise;
+    text-decoration:underline;
+    transition: 0.5s;
+}
+
+a.two:hover {
+    color: darkorange;
+    text-decoration:underline;
+    transition: 0.5s;
+}
+
+H2 {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+     body {
+         background-color: black;
+         color: white;
+     }
+    }
